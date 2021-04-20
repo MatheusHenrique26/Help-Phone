@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	
+	<head>
+	<title>Contato-Help Phone</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+ <header>
+
+  	<div class="caixa">
+		<img src="logo.png" alt="logo help phone">
+		 <nav>
+		 	
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Produtos.html">Produtos</a></li>
+				<li><a href="Contato.html">Contato</a></li>
+			</ul>
+	     </nav>
+	</div>    
+  </header>
+
+  <main>
+  	
+  		<form>
+  			
+  				<label for="nomesobrenome">Nome e Sobrenome</label>
+  				<input type="text" id="nomesobrenome" required class="input-padrao">
+
+  				<label for="email">Email</label>
+  				<input type="text" id="email" required class="input-padrao" placeholder="seuemail@dominio.com">
+
+  				<label for="telefone">Telefone</label>
+  				<input type="text" id="telefone" required class="input-padrao" placeholder="(xx)xxxxx-xxxx">
+
+  				<label id="mensagem">Mensagem</label>
+  				<textarea cols="70" rows="10" id="mensagem" required class="input-padrao"></textarea>
+
+  			<fieldset>
+  				
+  				<legend>Como prefere o nosso contato?</legend>
+
+  				<label for="radio-email"><input type="radio" id="radio-email" name="contato" value="email">Email</label>
+  				
+
+  				<label for="radio-telefone"><input type="radio" id="raio-telefone" name="contato" value="telefone">Telefone</label>
+  				
+
+  				<label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" name="contato" value="whatsapp" checked>Whatsapp</label>
+  				
+
+  			</fieldset>
+
+  			<fildset>
+  				
+  				<legend>Qual melhor horário para ser atendido?</legend>
+
+  				<select>
+  					
+  					<option>Manha</option>
+  					<option>Tarde</option>
+  					<option>Noite</option>
+
+  				</select>
+
+  			</fildset>
+
+  				<label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+  				
+  				<input type="submit" value="Enviar formulario" class="enviar">
+
+  				<table>
+  					
+  					<thead>
+  						
+  						<tr>
+  							
+  							<th>Dia</th>
+  							<th>Horario</th>
+
+  						</tr>
+
+  					</thead>	
+
+  					<tbody>
+  						
+  						<tr>
+  							
+  							<td>Segunda</td>
+  							<td>8h ~ 20h</td>
+
+  						</tr>
+
+  						<tr>
+  							
+  							<td>Quarta</td>
+  							<td>8h ~ 20h</td>
+
+  						</tr>
+
+  						<tr>
+  							
+  							<td>Sexta</td>
+  							<td>8h ~ 20h</td>
+
+  						</tr>
+
+  					</tbody>	
+
+   				</table>
+
+  		</form>
+
+  </main>
+
+
+   <div class="final">
+
+    <footer>
+    	
+    	<p class="copyright"> &copy; Help Phone 2021</p>
+
+    </footer>
+</div>
+</body>
+</html>
